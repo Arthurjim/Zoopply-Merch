@@ -1,0 +1,25 @@
+Debemos crear una carpeta public donde van a estar los elementos publicos de nuestro proyecto
+y en src nuestro archivo index o punto de entrada
+
+Configuración de WEBPACK
+
+npm i webpack webpack-cli webpack-dev-server -D
+npm i html-webpack-plugin html-loader -> Este nos sirve para poder hacer modificaciones e insercciones a nuestro html por medio de webpack
+
+
+Babel es una herramienta que nos permite trabajar con todas las carateristicas de js dentro de nuestro proyecto, basciamente le decimos a bebel lo que vamos a utilizar en nuestro
+proyecto y este lo va a transoformar en codigo soportado por navegadores antiguos
+npm i babel-loader @babel/preset-env @babel/preset-react @babel/core
+
+
+CONFIGURACION DE NUESTRO ARCHIVO WEBPACK.
+Webpack nos ayudara a hacer el compilado de nuestra aplicacion, encapsuladno todo lo que necesitemos 
+Dentro de webpack debemos decir cuales serán las reglas a plicar, las extensiones, los plugins, la configuracion que estas necesitan, entre otros
+
+
+
+ESLint y prettier
+Eslint va a buscar reglas que tenemos que cumplir 
+y prettier garantiza que exista un estandar de indentacion, de comas, etc.
+
+npm install react-router-dom para poder manejar las rutas de nuestra app
