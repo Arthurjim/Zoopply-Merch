@@ -9,7 +9,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
-   
+    publicPath: '/'
   },
   resolve: {
     //tenemos que decir que extensiones va a estar analizando para que webpack este preparado
@@ -53,7 +53,7 @@ module.exports = {
       filename: './index.html',
     }),
     new MiniCssExtractPlugin({
-      filename:'assets/[name].css'
+      filename:'./assets/[name].css'
     })
   ],
   devServer: {

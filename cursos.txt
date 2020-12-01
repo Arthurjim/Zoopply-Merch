@@ -23,3 +23,8 @@ Eslint va a buscar reglas que tenemos que cumplir
 y prettier garantiza que exista un estandar de indentacion, de comas, etc.
 
 npm install react-router-dom para poder manejar las rutas de nuestra app
+
+
+Hisotory es un hook que nos da react-router-dom para poder hacer push a diferentes lados
+
+npm install react-paypal-button
