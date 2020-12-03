@@ -73,7 +73,7 @@ typings/
 yarn-error.log
 
 # Build
-dist/
+
 .eslintrc
 .babelrc
 .prettierrc
