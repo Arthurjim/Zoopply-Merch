@@ -1,0 +1,11 @@
+.containerHome{
+   width: 100%;
+   
+ }
+ @media screen and (max-width: 600px){
+   .containerHome{
+     width: 100%;
+     
+   }
+ }
+ 

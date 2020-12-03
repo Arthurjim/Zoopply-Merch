@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+.bibliografia{
+ width: 100%;
+  background-color: rgb(248, 248, 248);
+  margin: 0px;
+  height: 500px;
+}
+.bibliografia__info{
+  width: 90%;
+  background-color: rgb(248, 248, 248);
+  margin: auto ;
+  padding:10px;
+}
+.bibliografia__info h2{
+  margin-top: 25px;
+  border-bottom: 3px solid rgb(82, 82, 82);  
+  color: rgb(19, 113, 255);
+  margin-bottom: 40px;
+  font-size: 35px;
+  font-family: 'Nerko One', cursive;
+  text-transform: uppercase;
+}
+.bibliografia__info p{
+margin: 10px 30px;
+font-size: 20px;
+}
+@media screen and (max-width: 600px){
+  .bibliografia{
+    width: 100%;
+     background-color: rgb(248, 248, 248);
+     margin: 0px;
+     height: auto;
+   }
+
+}

@@ -1,15 +1,15 @@
 import React from 'react';
+import iconTwitter from '../static/twitter-icon.png'
+import iconGoogle from '../static/google-icon.png'
 import '../styles/components/Footer.css'
 const Footer = () => {
    return ( 
-      <div className="Footer">
-         <p className="Footer-title">
-            Platzi Conf Merch
-         </p>
-         <p className="Footer-copu">
-            Todos los derechos reservados
-         </p>
-      </div>
+      <div className="footer">
+      <p>Zooply@gmail.com</p>
+      <img src={iconTwitter} alt="twitter"/>
+      <img src={iconGoogle} alt="google"/>
+  
+    </div>
     );
 }
  

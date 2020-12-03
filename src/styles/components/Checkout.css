@@ -4,6 +4,9 @@
   grid-row-gap: 1.5em;
   display: grid;
   padding: 0 0 4em 0;
+  height: 400px;
+  width: 80%;
+  margin: 40px auto;
 }
 .Checkout-item {
   display: flex;

@@ -1,3 +1,7 @@
+.Products{
+  margin: 20px auto;
+  width: 80%;
+}
 .Products-items {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1.5rem;
@@ -46,4 +50,17 @@
 }
 .Products-item button:hover {
   background-color: rgba(39,44,49,0.06);
+}
+@media screen and (max-width: 600px){
+  .Products{
+
+    width: 95%;
+  }
+  .Products-items {
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 0rem;
+  grid-row-gap: 0em;
+
+    display: grid;
+  }
 }

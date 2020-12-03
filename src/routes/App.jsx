@@ -1,5 +1,7 @@
 import React from 'react';
-import {BrowserRouter, Switch, Route} from 'react-router-dom';
+
+import { HashRouter, Route, Switch } from 'react-router-dom';
+import About from '../containers/About'
 import Home from '../containers/Home';
 import Checkout from '../containers/Checkout';
 import Information from '../containers/Information'
@@ -16,12 +18,13 @@ const App = () => {
    return ( 
    <AppContext.Provider value={initialState}>
       {/**Encapsulando la navegacion*/}
-      <BrowserRouter>
+      <HashRouter>
          {/**Mostrar la primer ruta que coincida */}
          <Layout>
       
             <Switch>
-               <Route exact path="/" component={Home}/>
+               <Route exact path="/" component={About}/>
+               <Route exact path="/Products" component={Home}/>
                <Route exact path="/checkout" component={Checkout}/>
                <Route exact path="/checkout/information" component={Information}/>
                <Route exact path="/checkout/payment" component={Payment}/>
@@ -31,7 +34,7 @@ const App = () => {
 
             </Switch>
          </Layout>
-      </BrowserRouter>
+      </HashRouter>
    </AppContext.Provider>
     );
 }

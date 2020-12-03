@@ -31,15 +31,15 @@ const Information = () => {
             </div>
             <div className="Information-form">
                <form ref={form}>
-                  <input type="text" placeholder="Nombre completo" name="name" />
-                  <input type="text" placeholder="Correo Electronico" name="email" />
-                  <input type="text" placeholder="Direccion" name="address" />
-                  <input type="text" placeholder="apto" name="apto" />
-                  <input type="text" placeholder="Ciudad" name="city" />
-                  <input type="text" placeholder="Pais" name="country" />
-                  <input type="text" placeholder="Estado" name="state" />
-                  <input type="text" placeholder="Codigo postal" name="cp" />
-                  <input type="text" placeholder="Telefono" name="phone" />
+                  <input type="text" placeholder="Nombre completo" name="name" required />
+                  <input type="text" placeholder="Correo Electronico" name="email" required />
+                  <input type="text" placeholder="Direccion" name="address"required />
+                  <input type="text" placeholder="apto" name="apto" required/>
+                  <input type="text" placeholder="Ciudad" name="city" required/>
+                  <input type="text" placeholder="Pais" name="country" required/>
+                  <input type="text" placeholder="Estado" name="state" required />
+                  <input type="text" placeholder="Codigo postal" name="cp" required />
+                  <input type="text" placeholder="Telefono" name="phone" required/>
                </form>
             </div>
             <div className="Information-buttons">
@@ -62,7 +62,7 @@ const Information = () => {
                <div className="Information-item" key={item.id}>
                <div className="Information-element">
                   <h4>{item.title}</h4>
-                  <span>$${item.price}</span>
+                  <span>${item.price}</span>
                </div>
             </div>
             ))}

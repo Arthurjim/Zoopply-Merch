@@ -1,4 +1,30 @@
-.Footer {
+.footer{
+  width:100%;
+  height: 30px;
+  background-color: rgb(3, 3, 3);
   display: flex;
-  justify-content: space-between;
+text-align: center;
+ 
+}
+.footer p{
+ color: white;
+  margin: 0px 10%;
+}
+.footer img{
+  margin: 0px 10%;
+
+}
+@media screen and (max-width: 600px){
+  .footer{
+  display: flex;
+
+  }
+  .footer p{
+    color: white;
+     margin: 0px 5%;
+   }
+   .footer img{
+     margin: 0px 5%;
+   
+   }
 }

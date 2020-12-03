@@ -22,7 +22,7 @@ const {cart,buyer}=state;
    }
    const handlePaymentSuccess =(data)=>{
       //nos manda un status complete
-      console.log(data)
+      // console.log(data)
       if(data.status === 'COMPLETED'){
          const newOrder={
             buyer,
