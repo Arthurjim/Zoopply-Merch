@@ -2,7 +2,7 @@
  width: 90%;
  margin: auto;
  grid-template-columns: 70% 30%;
-  height: 400px;
+height: 100%;
 }
 .Payment-content{
   display: grid;

@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+.Contacts{
+   width: 95%;
+   height: 700px;
+   margin: auto;
+   display: grid;
+   grid-template-rows: 10% 90%;
+}
+.Contacts h1{
+   text-align: center;
+  font-family: 'Nerko One', cursive;
+
+}
+.Contacts-members{
+   display: grid;
+   grid-template-columns: 33% 33% 33%;
+
+}
+.members{
+
+width: 80%;
+height: 95%;
+display: grid;
+grid-template-rows: 50% 50%;
+border-radius: 5px;
+margin:auto;
+box-shadow: 0px 0px 0px 5px rgba(182, 182, 182, 0.75);
+}
+.members-info{
+   display: grid;
+   grid-template-rows: 80% 20%;
+}
+.member-img{
+   width: 100%;
+border-radius: 5px 5px 0px 0px;
+   
+   display: grid;
+ background-color: rgb(100, 100, 100);
+}
+.member-img img{
+   margin: auto;
+   height:100%;
+}
+.members h2{
+   text-align: center;
+}
+.members-info{
+   
+text-align: center;
+}
+.members-icon{
+   background-color: rgba(0, 0, 0, 0.87);
+   bottom: 0;
+  height: 100%;
+  border-radius: 5px;
+}
+@media screen and (max-width: 600px){
+   .Contacts{
+      width: 95%;
+      height: 700px;
+      margin: auto;
+      display: grid;
+      grid-template-rows: 5% 95%;
+   }
+.Contacts-members{
+   display: grid;
+   grid-template-columns:50% 50%;
+
+}
+.members{
+
+   width: 90%;
+   height: 95%;
+   display: grid;
+   grid-template-rows: 50% 50%;
+   border-radius: 5px;
+   margin:25px auto;
+   box-shadow: 0px 0px 0px 5px rgba(182, 182, 182, 0.75);
+   }
+
+   .member-img{
+      width: 100%;
+   border-radius: 5px 5px 0px 0px;
+      
+      display: grid;
+    background-color: rgb(100, 100, 100);
+   }
+   .member-img img{
+      margin: auto;
+      height:90%;
+   }
+   .members h2{
+      text-align: center;
+      font-size: 15px;
+   }
+   .members-icon{
+      background-color: rgba(0, 0, 0, 0.87);
+      bottom: 0;
+     height: 100%;
+     border-radius: 5px;
+   }
+   .members-icon img{
+      width: 20px;
+   }
+   .members-icon img:hover{
+      border:1px solid white;
+   }
+   .Contacts h1{
+      text-align: center;
+  font-family: 'Nerko One', cursive;
+
+      font-size: 25px;
+   }
+}

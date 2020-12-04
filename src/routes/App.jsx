@@ -11,6 +11,7 @@ import NotFound from '../containers/NotFound'
 import Layout from '../components/Layout';
 import AppContext from '../context/AppContext';
 import useIntialState from '../hooks/useInitialState';
+import Contacts from '../containers/Contacts';
 
 
 const App = () => {
@@ -25,6 +26,7 @@ const App = () => {
             <Switch>
                <Route exact path="/" component={About}/>
                <Route exact path="/Products" component={Home}/>
+               <Route exact path="/Members" component={Contacts} />
                <Route exact path="/checkout" component={Checkout}/>
                <Route exact path="/checkout/information" component={Information}/>
                <Route exact path="/checkout/payment" component={Payment}/>
