@@ -58,10 +58,10 @@ text-align: center;
 @media screen and (max-width: 600px){
    .Contacts{
       width: 95%;
-      height: 700px;
+      height: 750px;
       margin: auto;
       display: grid;
-      grid-template-rows: 5% 95%;
+      grid-template-rows: 5% 90%;
    }
 .Contacts-members{
    display: grid;
