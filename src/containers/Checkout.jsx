@@ -1,4 +1,5 @@
 import React, { useContext } from 'react';
+import {Helmet} from 'react-helmet'
 import { Link } from 'react-router-dom';
 import AppContext from '../context/AppContext'
 // import {sumTotal}from '../utils'
@@ -15,6 +16,10 @@ const Checkout = () => {
       return sum;
    }
    return (
+     <> 
+       <Helmet>
+      <title>Zoopply - Carrito</title>
+    </Helmet>
       <div className="Checkout">
          <div className="Checkout-content">
             <h3>Lista de Pedidos</h3>
@@ -45,6 +50,7 @@ const Checkout = () => {
          }
 
       </div>
+   </>
    );
 }
 

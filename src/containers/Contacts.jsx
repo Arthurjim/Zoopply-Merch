@@ -1,9 +1,15 @@
 import React from 'react';
+import {Helmet} from 'react-helmet';
 import iconTwitter from '../static/twitter-icon.png'
 import iconGoogle from '../static/google-icon.png'
 import '../styles/components/Contacts.css'
 const Contacts = () => {
    return (
+     <>
+     <Helmet>
+            <title>Zoopply - Integrantes</title>
+            
+         </Helmet>
       <div className="Contacts">
          <div>
             <h1> Integrantes el proyecto.</h1>
@@ -54,7 +60,7 @@ const Contacts = () => {
                   <div>
                      <h2>Judith Peña C.</h2>
                      <p>
-                        Desarrolladora web
+                        Documentadora
                   </p>
                   </div>
                   <div className="members-icon">
@@ -71,7 +77,7 @@ const Contacts = () => {
                   <div>
                      <h2>Adan Rodgríguez </h2>
                      <p>
-                        Desarrollador web
+                     Documentador
                   </p>
                   </div>
                   <div className="members-icon">
@@ -88,7 +94,7 @@ const Contacts = () => {
                   <div>
                      <h2>Leonel De Luna</h2>
                      <p>
-                        Desarrollador web
+                        Tester
                   </p>
                   </div>
                   <div className="members-icon">
@@ -100,6 +106,7 @@ const Contacts = () => {
 
          </div>
       </div>
+     </>
    );
 }
 
